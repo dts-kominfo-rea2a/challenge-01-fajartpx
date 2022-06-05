@@ -10,9 +10,9 @@ let firstUser = {
     gender : "Female",
     age : 17,
     email : "monica@dingdong.com",
-    favoriteColor: [
+    favoriteColor: new Set([
          'Yellow', 'Pink', 'White', 'Purple',
-    ],
+    ]),
 
     isHavePet : 'Yes',
 
@@ -32,9 +32,9 @@ let secondUser = {
     gender : "Male",
     age : 23,
     email : "wendy@dingdong.com",
-    favoriteColor: [
+    favoriteColor: new Set([
          'Blue', 'Black', 'Gray',
-    ],
+    ]),
 
     isHavePet : 'No',
 
