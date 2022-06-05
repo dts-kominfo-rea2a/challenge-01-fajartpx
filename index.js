@@ -4,15 +4,15 @@
 
 let favoriteRestaurant1= ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
 let favoriteRestaurant2=["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
-let favoriteColor1= ["Yellow", "Pink", "White", "Purple"];
-let favoriteColor2=["Blue", "Black", "Grey"];
 
 let firstUser = {
     name : "Monica",
     gender : "Female",
     age : 17,
     email : "monica@dingdong.com",
-    favoriteColor: new Set(favoriteColor1),
+    favoriteColor: new Set([
+         'Yellow', 'Pink', 'White', 'Purple',
+    ]),
 
     isHavePet : 'Yes',
 
@@ -23,7 +23,7 @@ let firstUser = {
         ]
     ,
     
-    favoriteRestaurant: new Set(favoriteRestaurant1),
+    favoriteRestaurant: [...new Set(favoriteRestaurant1)],
 
 };
 
@@ -32,7 +32,9 @@ let secondUser = {
     gender : "Male",
     age : 23,
     email : "wendy@dingdong.com",
-    favoriteColor: new Set(favoriteColor2),
+    favoriteColor: new Set([
+         'Blue', 'Black', 'Gray',
+    ]),
 
     isHavePet : 'No',
 
@@ -43,7 +45,7 @@ let secondUser = {
         { name : "Universitas Maju", city : "Tangerang"},
     ],
     
-    favoriteRestaurant: new Set(favoriteRestaurant2),
+    favoriteRestaurant: [...new Set(favoriteRestaurant2)],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
