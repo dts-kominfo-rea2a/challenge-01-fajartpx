@@ -2,8 +2,10 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
+let favoriteRestaurant1= ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
+let favoriteRestaurant2=["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
 
-const firstUser = {
+let firstUser = {
     name : "Monica",
     gender : "Female",
     age : 17,
@@ -21,13 +23,11 @@ const firstUser = {
         ]
     ,
     
-    favoriteRestaurant: [
-         'Bento','Sushi','Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi' , 'Sushi'
-    ],
+    favoriteRestaurant: new Set(favoriteRestaurant1),
 
 };
 
-const secondUser = {
+let secondUser = {
     name : "Wendy",
     gender : "Male",
     age : 23,
@@ -45,9 +45,7 @@ const secondUser = {
         { name : "Universitas Maju", city : "Tangerang"},
     ],
     
-    favoriteRestaurant: [
-         'Tempura','Bento','Sushi','Pancake','Padang', 'Katsu', 'Geprek' , 'Pancake', 'eggy'
-    ],
+    favoriteRestaurant: new Set(favoriteRestaurant2),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
