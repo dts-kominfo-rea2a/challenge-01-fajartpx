@@ -49,7 +49,7 @@ let secondUser = {
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-let users = [firstUser, secondUser];
+let users = [];
 users.push(firstUser,secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
