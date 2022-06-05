@@ -4,15 +4,15 @@
 
 let favoriteRestaurant1= ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'];
 let favoriteRestaurant2=["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+let favoriteColor1= ["Yellow", "Pink", "White", "Purple"];
+let favoriteColor2=["Blue", "Black", "Grey"];
 
 let firstUser = {
     name : "Monica",
     gender : "Female",
     age : 17,
     email : "monica@dingdong.com",
-    favoriteColor: new Set([
-         'Yellow', 'Pink', 'White', 'Purple',
-    ]),
+    favoriteColor: new Set(favoriteColor1),
 
     isHavePet : 'Yes',
 
@@ -32,9 +32,7 @@ let secondUser = {
     gender : "Male",
     age : 23,
     email : "wendy@dingdong.com",
-    favoriteColor: new Set([
-         'Blue', 'Black', 'Gray',
-    ]),
+    favoriteColor: new Set(favoriteColor2),
 
     isHavePet : 'No',
 
